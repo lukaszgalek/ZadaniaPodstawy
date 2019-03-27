@@ -1,13 +1,13 @@
 package SDA;
 
-/**
- * Hello world!
- *
- */
-public class App 
+
+import ZadaniePierwsze.CelsiusToFahrenheitConvert;
+
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+CelsiusToFahrenheitConvert celsiusToFahrenheitConvert = new CelsiusToFahrenheitConvert();
+        System.out.println( celsiusToFahrenheitConvert.ConvertTemperature(40));
     }
 }
